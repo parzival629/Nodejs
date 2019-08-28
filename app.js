@@ -36,6 +36,10 @@ app.get("/",function(solicitud,respuesta){    //donde se reciben las peticiones 
   respuesta.render("index");        
 });
 
+app.get("/menu/new",function(solicitud,respuesta){
+	respuesta.render("menu/new")
+})
+
 app.listen(8080,function(){
 	console.log("Servidor Corriendo Mi Señor")
 });                  //el puerto donde pasa
