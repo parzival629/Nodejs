@@ -33,10 +33,10 @@ app.get("/",function(solicitud,respuesta){    //donde se reciben las peticiones 
 		console.log(product);
 	});	
 
-  respuesta.render("index");        
+  respuesta.render("index")
 });
 
-app.get("/menu/new",function(solicitud,respuesta){
+app.get("/menu/new", function(solicitud,respuesta){
 	respuesta.render("menu/new")
 })
 
