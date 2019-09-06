@@ -38,7 +38,7 @@ app.get("/",function(solicitud,respuesta){    //donde se reciben las peticiones 
 		console.log(product);
 	});*/
 
-  respuesta.render("index");        
+	respuesta.render("index");
 });
 
 app.post("/menu",function(solicitud,respuesta){
